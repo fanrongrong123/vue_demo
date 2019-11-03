@@ -1,3 +1,5 @@
+// 外部包裹父组件
+
 <template>
   <div id="app">
     <img src="./assets/logo.png">
