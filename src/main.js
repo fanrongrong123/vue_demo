@@ -1,7 +1,7 @@
 // 组件入口文件
 import Vue from 'vue'
 import App from './App.vue'
-import   './index.css'
+import   './base.css'
 
 Vue.config.productionTip = false
 
