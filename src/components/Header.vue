@@ -50,7 +50,7 @@
   </script>
   
   <style scoped>
-  /* 给标签添加  scoped，限制不影响外部样式 */
+  /* 给标签添加  scoped，限制之影响当前组件样式，不影响外部样式 */
     .todo-header input {
     width: 560px;
     height: 28px;

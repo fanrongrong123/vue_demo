@@ -16,7 +16,7 @@ import Item from './Item'
     // 声明接收标签属性：属性名
     name:'List',
     props:['todos','deleteTodo','updateTodo'],
-    // 多个用components
+    // 用components注册标签名，不注册用不了（作用：指定组件标签）
     components:{
       Item
     }
