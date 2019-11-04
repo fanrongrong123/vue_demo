@@ -5,11 +5,10 @@ import App from './App.vue'
 import router from './router'  //路由
 
 
-
-
 new Vue({
-  el: '#app',
-  components: { App },
-  template: '<App/>',
-  router  //配置路由器
-})
+  components:{
+    App
+  },
+  template:'</App>',
+  router
+}).$mount('#app')
