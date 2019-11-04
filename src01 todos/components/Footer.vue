@@ -16,9 +16,11 @@
 <script type="text/ecmascript-6">
 // 默认暴露
   export default {
+    // name:'Footer',
     props:{
       todos:Array,
       selectAll:Function,
+      clearAllComplete:Function,
     },
 
     computed: {

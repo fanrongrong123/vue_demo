@@ -16,7 +16,7 @@
 import Header from './components/Header'
 import List from './components/List'
 import Item from './components/Item'
-import Foot from './components/Footer'
+import Footer from './components/Footer'
 
 // 默认暴露
 export default {

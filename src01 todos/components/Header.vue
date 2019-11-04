@@ -2,7 +2,7 @@
   <template>
      <!-- 头部组件 -->
     <div class= 'todo-header'>
-      <input type = 'text' placeholder = '请输入任务名称,按回车键确定' v-model="title" @keyup.enter="add"/>>
+      <input type = 'text' placeholder = '请输入任务名称,按回车键确定' v-model="title" @keyup.enter="add"/>
     </div>
   </template>
   
